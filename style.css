@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    font-family: Aeonik TRIAL ;
+    height: 100%;
+    letter-spacing: 3px;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(245, 234, 235);
+}
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.39);
+    position: relative;
+}
+#icon{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+#text{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   padding: 0 10vw;
+    /* background-color: blanchedalmond; */
+    position: absolute;
+    bottom: 20%;
+}
+#textright{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    justify-content: space-between;
+    width: 60%;
+}
+#textright p{
+    font-size: 12px;
+    align-items: center;
+    width: 40%;
+}
+#text h1{
+    font-size: 6vw;
+    color: white;
+   
+}
+#top{
+    height: 50%;
+    width: 100%;
+
+    background-size: cover;
+    background-position: center;
+background-image: url(https://images.unsplash.com/photo-1524959888614-3ab5712bf527?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80);}
+#bottom{
+    height: 50%;
+    width: 100%;
+    background-color: coral;
+    display: flex;
+}
+#bone{
+    width: 25%;
+    height: 100%;
+    padding: 30px;
+
+    background-color: white;
+}
+#bone p{
+    font-size: 12px;
+    margin-top: 20px;
+}
+#btwo{
+    width: 25%;
+    height: 100%;
+background-image: url(https://images.unsplash.com/photo-1602562887763-851fa56061e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80);
+background-position: center;
+background-size: cover;
+
+}
+#bthreetop{
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+    background-color: rgba(255, 0, 0, 0.76);
+}
+#bthreetop h4{
+
+   
+    text-align: center;
+    padding-top: 15px;
+}
+#bthreetop h6{
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#bthreebottom{
+    width: 100%;
+    height: 50%;
+background-image: url(https://images.unsplash.com/photo-1526137755315-124801590ce5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80);
+background-position: center;
+background-size: cover;
+
+}
+#bthree{
+    width: 20%;
+    height: 100%;
+    background-color: yellowgreen;
+}
+#bfour{
+    width: 30%;
+    height: 100%;
+ color: white;
+    background-color: rgb(109, 102, 109);
+}
+.notif{
+    display: flex;
+    margin-top: 20px;
+    /* padding-left: 10px; */
+    justify-content: space-between;
+    
+}
+.notif #photo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    /* padding-left: 20px; */
+background-image: url(https://png.pngtree.com/png-clipart/20190516/original/pngtree-cute-girl-avatar-material-png-image_4023832.jpg);
+background-position: center;
+background-size: cover;   
+}
+.notif p{
+    width: 86%;
+    font-size: 12px;
+
+}
